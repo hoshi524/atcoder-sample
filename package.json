@@ -1,0 +1,25 @@
+{
+  "name": "atcoder-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "get": "node get.js",
+    "exec": "node exec.js",
+    "get-exec": "node get-exec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoshi524/atcoder-sample.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoshi524/atcoder-sample/issues"
+  },
+  "homepage": "https://github.com/hoshi524/atcoder-sample#readme",
+  "dependencies": {
+    "jsdom": "^9.12.0",
+    "mkdirp": "^0.5.1"
+  }
+}
