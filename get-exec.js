@@ -10,5 +10,6 @@ const execSync = (exec) => {
     console.log("exec:" + exec);
     console.log(require('child_process').execSync(exec).toString());
 };
-execSync("node get.js  " + url + " " + exec);
-execSync("node exec.js " + url + " " + exec);
+
+execSync("node " + __dirname + "/get.js  " + url + " " + exec);
+execSync("node " + __dirname + "/exec.js " + url + " " + exec);

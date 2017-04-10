@@ -16,5 +16,5 @@ $ npm install
 サンプルを取得して、テスト
 
 ```bash
-$ npm run get-exec -- http://agc003.contest.atcoder.jp/tasks/agc003_b tmp/main.exe
+$ node get-exec.js http://agc003.contest.atcoder.jp/tasks/agc003_b main.exe
 ```
